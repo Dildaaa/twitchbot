@@ -30,7 +30,7 @@ def eng_to_ukr_layout(text):
 
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(token='oauth:6l79ietq6s7w9yvj6injv3762ft9gz', prefix="!", initial_channels=["12dil_do"])
+        super().__init__(token='oauth:kltnj43vgp37ytd2zibc2hjccv8hz1', prefix="!", initial_channels=["t0temka"])
 
     @commands.command(name='бля')
     async def fix_command(self, ctx):
